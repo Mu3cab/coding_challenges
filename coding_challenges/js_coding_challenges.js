@@ -54,4 +54,11 @@ students.forEach(
     }
 )
 
+// convert the traditional function ti an arrow function
+function multiply (num1,num2) {
+    let result = num1 * num2
+    return result;
+}
+console.log(multiply(5,3))
+
 
